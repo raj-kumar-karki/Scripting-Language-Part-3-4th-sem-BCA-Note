@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function diff(sci,eng,comp) 
+	{
+		var d = sci-eng-comp;
+		return d;
+}
+
+var sci =parseInt(prompt("Enter the first subject no:")); //parseInt coverts the string into an integers 
+var eng =parseInt(prompt("Enter the Second subject no:")); // prompt takes the values from the user
+var comp =parseInt(prompt("Enter the Third subject no:"));
+var results = diff(sci,eng,comp);
+document.write("The diff of the three subjects is: " + results);
+</script>
+</body>
+</html>
